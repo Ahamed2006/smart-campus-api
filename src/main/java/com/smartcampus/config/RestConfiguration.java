@@ -3,6 +3,6 @@ package com.smartcampus.config;
 import javax.ws.rs.ApplicationPath;
 import javax.ws.rs.core.Application;
 
-@ApplicationPath("/api")
+@ApplicationPath("/api/v1")
 public class RestConfiguration extends Application {
 }
